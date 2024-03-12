@@ -5,20 +5,58 @@
   justify-content: space-between;
   height: 30px;
     }
+.center-content{
+  display: flex;
+  justify-content: center;
+}
 .text{
   margin-left: 20px;
   height: 10px;
-  padding-top: 5px;
+  text-align: center;
 }
 .home{
-  margin-left:-1000px;
+  float: left;
+  margin: left -900px;
   background-color: darkblue;
   color: white;
   border: none;
-}
+  text-decoration: none;
+text-align: center;}
 .about{
-  margin-left:-400px;
+  margin-right:1000px;
   background-color: darkblue;
   color: white;
   border: none;
+  text-decoration: none;
+  text-align: center;
+}
+.search{
+  width: 100px;
+  height:40px;
+  margin-left: -100px;
+  margin-top: 20px;
+  color: blue;
+  background-color: white;
+  border-color: blue;
+}
+.post{
+  width: 100px;
+  height:40px;
+  margin-left: 20px;
+  color: green;
+  background-color: white;
+  border-color: green;
+  border-radius: 1px;
+  border-width: 2px;
+}
+.search-box{
+  margin-top: 110px;
+  margin-left: -250px;
+}
+.searching{
+  width: 500px;
+  height: 30px;
+  margin-left: -250px;
+  border: none;
+  border-bottom: 1px solid #ccc
 }
