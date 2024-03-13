@@ -1,0 +1,69 @@
+.nav-bar{
+  background-color: darkblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+    }
+.center-content{
+  display: flex;
+  justify-content: center;
+}
+.text{
+  margin-left: 20px;
+  height: 10px;
+  text-align: center;
+}
+.home{
+  float: left;
+  margin: left -900px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  text-decoration: none;
+text-align: center;}
+.about{
+  margin-right:1000px;
+  background-color: darkblue;
+  color: white;
+  border: none;
+  text-decoration: none;
+  text-align: center;
+}
+.search{
+  width: 100px;
+  height:40px;
+  margin-left: -100px;
+  margin-top: 20px;
+  color: blue;
+  background-color: white;
+  border-color: blue;
+}
+.post{
+  width: 100px;
+  height:40px;
+  margin-left: 20px;
+  color: green;
+  background-color: white;
+  border-color: green;
+  border-radius: 1px;
+  border-width: 2px;
+}
+.search-box{
+  margin-top: 110px;
+  margin-left: -250px;
+}
+.searching{
+  width: 500px;
+  height: 30px;
+  margin-left: -250px;
+  border: none;
+  border-bottom: 1px solid #ccc
+}
+.form{
+
+}
+.answer{
+  margin-top:50px;
+  margin-left: 10px;
+}
